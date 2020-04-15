@@ -1,0 +1,42 @@
+Pour ce projet, nous avons répartis les rôles de façon à avancer le plus efficacement possible.
+
+En ce qui concerne l'exercie 1 :
+
+1. Nous avons tous implémenter notre propre générateur en langage C  (les 3 fichiers .c sont présent dans le .tar.gz), pour la suite de l'exercice nous avons décidé de garder un seul des programmes (il sera divisé en header et source)  qui sera compilé à l'aide du makefile.
+
+2. L'éxplication du calcul théorique des corrélations entre la sortie du générateur si et la sortie de chaque LFSR à était réalisé par Salsabil et Théo. En ce qui concerne l'implémentation en c, Théo s'est chargé de la correlation avec une fonction de filtrage saisie par l'utilisateur et Salsabil du spectre des corrélations 
+pour toutes le fonctions de filtrages possibles.
+
+3. Nous avons tous effectuer des recherches d'attaques par corrélation pour bien comprendre le mécanisme, et nous avons déduis une réponse commune qui figure sur le rapport.
+
+4. De la même manière que la question 3, chacun à proposé ces compléxités, afin de trouver des réponses communes. Ce qui nous à permis de validé nos réponses plus facilement.
+
+5.  Ayant pris l'implémentation de Théo pour le Générateur et le spectre de corrélation de Salsabil, nous avons travaillés à deux pour l'implémentation de l'attaque qui nous permet de récupérer toutes les sous-clés de départ.
+
+6. C'est Théo qui à trouvé la fonction de filtrage la plus résistante pour cette attaque.
+
+En ce qui concerne l'exercice 2 :
+
+1. Chacun à fait à la main le calcul du chiffrement (x1L, x1R)  plusieurs fois dû à des résultats complétements différents.  J'usqu'à trouver le même couple. Un programme a été implémenter en C par Soufiane et par Salsabil pour trouver les résultats, il est utilisable à l'aide du Makefile.
+
+2. Le système d'équation à été résolu par Soufiane et implémenté par Salsabil.
+
+3. Pour généraliser notre cryptanalyse au chiffrement complet, nous avons tous participé à la résolution de celle-ci.
+
+4. Soufiane et Salsabil se sont occupé de l'implémentation de l'attaque en langage C.
+
+5.6  Nous avons tous travaillé dessus.
+
+En ce qui concerne la structure du projet qui n'est pas relatives au questions :
+
+ - En ce qui concerne le Makefile qui permet de lancer deux éxecutables différents avec des paramètres adapté en fonctions des programmes pour Geffe et Feistel, il s'agit de la réalisation de Soufiane.
+
+ - Ce document et le README.md qui explique comment compiler, interpréter et utiliser le code ont été réaliser par Théo.
+ 
+ - Pour le rapport, nous avons tous les trois participé à la rédaction en latex sur Overleaf qui nous à permis d'obtenir le .pdf présent dans l'archive du projet.
+ 
+ Afin d'obtenir les meilleures résultats et implementations possibles pour ce projet, nous avons pratiqué des réunions vocal sur Discord et Zoom. Cela nous à permis de débattre sur les différents avis de chacun en fonction des questions posés,
+ mais aussi d'être plus présent pour les autres, pour pouvoir nous entraider en cas d'erreurs de compilation, de résultats faussés, de problêmes d'implémentation, etc.
+ 
+ Pour résumé l'organisation de notre projet, les quantités de travail ont été répartis de manières équivalentes, certains on fait moins de questions que d'autres mais on travaillé sur des parties plus techniques du projet, ce qui leur à pris plus de temp, et inversement.
+ 
